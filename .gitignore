@@ -1,6 +1,31 @@
+# Dependencies
 node_modules/
-dist/
-*.log
-.DS_Store
 package-lock.json
+
+# Build output
+dist/
+
+# Environment
+.env
+.env.*
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude
 .claude/
+
+# SSL certs (dev)
+*.pem
+*.crt
+*.key
